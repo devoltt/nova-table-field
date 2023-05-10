@@ -28,8 +28,14 @@
   "require": {
     "php": ">=7.1.0",
     "laravel/nova": "^1.0 || ^2.0 || ^3.0 || ^4.0",
-    "optimistdigital/nova-tailwind": "^1.0 || ^2.0 || ^3.0"
+    "optimistdigital/nova-tailwind": "^1.0 || ^2.0 || dev-nova4"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:devoltt/nova-tailwind.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "OptimistDigital\\NovaTableField\\": "src/"
